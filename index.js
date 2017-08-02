@@ -3,7 +3,8 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Heroku Doodley Doo')
+  const message = 'Heroku Doodly Doo';
+  res.render(message);
 });
 
 app.use((req, res, next) => {
