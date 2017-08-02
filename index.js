@@ -6,6 +6,10 @@ app.get('/', (req, res) => {
   res.send('Heroku Doodley Doo')
 });
 
+app.get('', (req, res) => {
+  res.send('Not found')
+});
+
 const port = process.env.PORT || 3000;
 
 app.listen(port);
