@@ -1,0 +1,23 @@
+{
+  "name": "heroku-doodley-doo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Rob3rtH@github.com/Rob3rtH/heroku-doodley-doo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rob3rtH/heroku-doodley-doo/issues"
+  },
+  "homepage": "https://github.com/Rob3rtH/heroku-doodley-doo#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
